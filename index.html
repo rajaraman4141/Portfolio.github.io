@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="asset/carepy_logo-1.svg" alt="">
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#portfolio-loc">Project</a></li>
+                <li><a href="#contact-loc">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+        <div class="landing">
+            <div class="intro">
+                <h3>I'M <Span>Raja Raman </Span><br>Python Developer & Web<br>Developer </h3>
+            <button
+            onclick="window.open('./asset/resume.pdf')"
+            >
+                Download CV
+            </button>
+            </div>
+            <div class="socials">
+                <div class="line"></div>
+                <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+                <i class="ri-whatsapp-line"></i>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>Welcome to my portfolio! I am Raja Raman, a dedicated and aspiring Bachelor of Engineering student pursuing my degree
+                 in Electronics and Communication Engineering (ECE) at Nitte Meenakshi Institute of Technology. With a passion for technology
+                  and a keen interest in web development and Python programming, I am committed to honing my skills and making a meaningful
+                   contribution to the field. Throughout my academic journey, I have immersed myself in various projects and coursework, 
+                   gaining a solid foundation in ECE principles, programming languages, and web development frameworks. 
+                   I firmly believe in the power of innovation and creativity, driving me to explore new solutions and 
+                   technologies to tackle real-world challenges. As a budding web developer and Python enthusiast, I am 
+                continuously expanding my knowledge and hands-on experience to craft elegant, efficient, and user-friendly web applications.
+                 I am drawn to the dynamic nature of web development, where I can combine my creativity with logical thinking to deliver 
+                 impactful digital experiences. In this portfolio, you'll find a showcase of my projects, experiences, and skills,
+                  illustrating my growth as a proficient web developer and Python aficionado. Each project reflects my dedication,
+                   problem-solving abilities, and commitment to excellence. I am eager to contribute my skills and collaborate on
+                    exciting projects that push the boundaries of technology and elevate user experiences. Thank you for visiting, and 
+                    I look forward to sharing my journey with you.</p>
+        </div>
+    </section>
+    <section class="skills">
+        <h1>My Skills</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="asset/python.svg" alt="">
+                <h2>Python</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/css.svg" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/html.svg" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/js.svg" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/mysql.svg" alt="">
+                <h2>MySQL</h2>
+            </div>
+            <div class="skill-card">
+                <img src="asset/nodejs.svg" alt="">
+                <h2>NodeJS</h2>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1>Project </h1>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <img src="asset/images/Project 1.png" alt="">
+                <div class="overlay">
+                    <h3>Project 1</h3>
+                    <p>Calculator using thinkter </p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/Protfo.jpg" alt="">
+                <div class="overlay">
+                    <h3>Portfolio</h3>
+                    <p>Portfolio Designing </p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="asset/images/netflix.jpg" alt="">
+                <div class="overlay">
+                    <h3>Netflix Clone</h3>
+                    <p> Better way to create ur own happiness </p>
+                    <button>See More -></button>
+                </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1> Major Project </h1>
+        <div class="portfolio-cards">
+        <div class="lighter-div">
+            <div class="exp">
+                <h2>Implementation of optimized technique for enhancing EEG signal Quality by improving signal to noise ratio</h2>
+                <div class="exp-desc">
+                    <p>In this project, we aim to improve the quality of Electroencephalography (EEG) signals by employing 
+                        optimized techniques to enhance the signal-to-noise ratio (SNR). EEG is a vital tool in neuroscience 
+                        and medical diagnostics, providing insights into brain activity and cognitive processes. However, EEG 
+                        signals often suffer from noise, which can compromise the accuracy and reliability of the recorded data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact-loc">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="contact-card">
+                <i class="ri-message-3-line"></i>
+                <p>Raja.raman4141@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>+91 7633835818</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Bangaluru, India</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
